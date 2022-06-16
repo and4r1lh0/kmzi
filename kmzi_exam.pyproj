@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>e567fafa-178f-4981-8c0f-cff874a913f4</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>laba_5.py</StartupFile>
+    <ProjectGuid>07866b6a-0e85-4399-bf8b-e479beeae134</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>5_elgamal_elliptic.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>kmzi</Name>
-    <RootNamespace>PythonApplication9</RootNamespace>
+    <Name>kmzi_exam</Name>
+    <RootNamespace>kmzi_exam</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,52 +21,39 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="bin_to_dec.py">
+    <Compile Include="1_shamir.py" />
+    <Compile Include="2_elgamal_sign.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="caesar.py">
+    <Compile Include="2_elgamal_sign2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="cypher.py">
+    <Compile Include="3_rsa_cypher.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="dlog.py">
+    <Compile Include="3_rsa_cypher2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="fast_exp.py" />
-    <Compile Include="gcd.py">
+    <Compile Include="3_rsa_sign.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="gcd1.py">
+    <Compile Include="3_rsa_sign2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="inverse.py">
+    <Compile Include="4_dlog.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="laba4_optimized.py">
+    <Compile Include="5_elgamal_elliptic.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="laba_1_2.py">
+    <Compile Include="5_ellipic.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="dec_to_bin.py">
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="2_elgamal_cypher.py">
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="laba_2.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="laba_3.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="laba_4.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="bsgs.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="laba_5.py">
-      <SubType>Code</SubType>
-    </Compile>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

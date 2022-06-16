@@ -1,9 +1,9 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.32106.194
+VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "kmzi", "kmzi.pyproj", "{E567FAFA-178F-4981-8C0F-CFF874A913F4}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "kmzi_exam", "kmzi_exam.pyproj", "{07866B6A-0E85-4399-BF8B-E479BEEAE134}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E567FAFA-178F-4981-8C0F-CFF874A913F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E567FAFA-178F-4981-8C0F-CFF874A913F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07866B6A-0E85-4399-BF8B-E479BEEAE134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07866B6A-0E85-4399-BF8B-E479BEEAE134}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0AD397B6-F4DB-441D-829A-81EF7216D300}
+		SolutionGuid = {44216B89-82C1-4DE5-9233-4FDB13A88AE2}
 	EndGlobalSection
 EndGlobal
