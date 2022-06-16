@@ -9,4 +9,5 @@ D_y=1
 q=3
 k=2
 m=12
-
+# at this point I fell asleep
+# (x . x) ~~zzZ
